@@ -1,0 +1,23 @@
+h1 {
+  text-align: center;
+}
+.plot-panel-container {
+  max-height: 580px;
+  overflow: scroll;
+}
+
+.plot-panel {
+  padding: 0px !important;
+  background-position: 50% 0;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.plot-canvas {
+  max-width: 100%;
+}
+
+.plot-panel.limitheight,
+.plot-canvas.limitheight {
+  max-height: 560px;
+}
